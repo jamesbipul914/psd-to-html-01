@@ -14,6 +14,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+section {
+    padding: 5% 0;
+}
+
 hr {
     color: #c6c4c9;
     width: 5%;
@@ -30,7 +34,7 @@ h2 {
 .btn {
     border-radius: 0;
     color: #00e0d0;
-    border: 1px solid #00e0d0;
+    border: 2px solid #00e0d0;
     font-family: 'Hammersmith One', sans-serif;
     font-size: 16px;
     text-transform: uppercase;
@@ -45,6 +49,7 @@ ul {
 }
 
 /* Header CSS */
+
 .header {
     background-image: url(../images/banner/banner-bg.jpg);
     background-position: center;
@@ -69,6 +74,11 @@ ul {
      position: relative;
      z-index: 9999;
      margin-top: 10px;
+ }
+
+ .navbar {
+    width: 89%;
+    margin: 0 auto;
  }
 
  .menu .active {
@@ -118,14 +128,35 @@ ul {
     padding: 0 195px;
 }
 .banner-btn {
-    color: #00e0d0;
-    border: 1px solid #00e0d0;
-    border-radius: 0;
     margin-top: 40px;
     font-size: 16px;
 }
 
 .banner-btn:hover {
-    border: 1px solid #ffffff;
+    border: 2px solid #ffffff;
     color: #ffffff;
+}
+
+/* About CSS */
+
+.aobut-img {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.aobut-img img {
+    width: 100%;
+}
+
+.about-text h2 {
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    padding-right: 80px;
+}
+
+.about-btn:hover {
+    border: 2px solid #30235f;
+    color: #30235f;
 }
