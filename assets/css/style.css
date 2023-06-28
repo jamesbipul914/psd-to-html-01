@@ -208,6 +208,11 @@ ul {
 
 /* Expertise CSS */
 
+#expertise {
+    width: 70%;
+    margin: 0 auto;
+}
+
 #expertise hr {
     color: #000000;
     width: 50px;
@@ -269,6 +274,8 @@ ul {
 }
 
 .team {
+    width: 84%;
+    margin: 0 auto;
     position: relative;
     z-index: 111;
 }
@@ -304,4 +311,11 @@ ul {
 .team-btn:hover {
     border: 2px solid #ffffff;
     color: #ffffff;
+}
+
+/* Work CSS */
+
+.work-btn:hover {
+    border: 2px solid #30235f;
+    color: #30235f;
 }
