@@ -241,3 +241,67 @@ ul {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
 }
+
+/* Team CSS */
+
+#team {
+    background-image: url(../images/team/team-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+ }
+
+ #team::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #30235f;
+    opacity: 0.85;
+}
+
+ #team hr {
+    color: #ffffff;
+    width: 50px;
+}
+
+.team {
+    position: relative;
+    z-index: 111;
+}
+
+.team h2 {
+    color: #ffffff;
+}
+
+.team p {
+    color: #ffffff;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+}
+
+.team-member {
+    border: 1px solid #ffffff;
+}
+
+.team-detail h4 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 900;
+}
+
+.team-detail p {
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.team-btn:hover {
+    border: 2px solid #ffffff;
+    color: #ffffff;
+}
